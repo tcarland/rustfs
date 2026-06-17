@@ -9,7 +9,6 @@
 /test
 /logs
 /data
-/docs
 /rustfs-data/
 .devcontainer
 rustfs/static/*
@@ -43,17 +42,11 @@ artifacts/
 *.snappy
 PR_DESCRIPTION.md
 scripts/s3-tests/selected_tests.txt
-docs
 __pycache__/
-!docs/
-docs/*
-!docs/architecture/
-!docs/architecture/**
 docs/heal-scanner-logging-governance.md
 
 # nix stuff
 result*
-*.gz
 rustfs-webdav.code-workspace
 
 .aiexclude
